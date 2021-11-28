@@ -3,3 +3,10 @@
     height: 200px;
     width: 200px;
 }
+h1{
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    /* width: 65px; */
+}
