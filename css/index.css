@@ -52,3 +52,6 @@ h2{
     display: flex;
     justify-content: center;
 }
+small{
+    color: olivedrab;
+}
