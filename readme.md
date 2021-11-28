@@ -11,7 +11,7 @@
  5. Licence
  
  ## Description 
-
+Webpage about my pizza shop. What we offer, about and social pages.
 
  ## Installation
  ##### *what you need*
