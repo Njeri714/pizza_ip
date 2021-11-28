@@ -29,6 +29,9 @@ strong{
     font-weight: bolder;
 }
 
+.us{
+    color:rgb(4, 196, 23);
+}
 .pic{
     display: flex;
     justify-content: right;
@@ -44,4 +47,8 @@ strong{
     height: 550px;
     margin-top: -460px;
     
+}
+h2{
+    display: flex;
+    justify-content: center;
 }
