@@ -55,3 +55,20 @@ h2{
 small{
     color: olivedrab;
 }
+
+#pig{
+    height: 320px;
+    width: 320px;
+}
+.be{
+    display: flex;
+    justify-content: center;
+    margin-left: -400px;
+    color: #A1EA2B;
+    ;
+}
+
+/* .gallery{
+    display: flex;
+    align-content: center;
+} */
