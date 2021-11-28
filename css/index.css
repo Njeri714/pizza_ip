@@ -10,3 +10,18 @@ h1{
     height: 70px;
     /* width: 65px; */
 }
+span{
+    color:rgb(94, 252, 3);
+}
+em{
+    color:limegreen;
+}
+.para{
+    font-size: medium;
+    /* font-weight: lighter; */
+    font-family: 'Times New Roman', Times, serif;
+
+}
+strong{
+    font-weight: bolder;
+}
