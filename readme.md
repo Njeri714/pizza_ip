@@ -24,8 +24,7 @@ slack- Charity Waweru
 Email- charity.waweru@mstudent.moringaschool.com
 
 ## Links
-https://www.figma.com/file/Q7OuiP26myAZt9VLSQVtUs/Untitled?node-id=3%3A4 _ figma design
-
+live link- https://njeri714.github.io/pizza_ip/
 ## Licences
 MIT License
 Copyright (c)    [2021]    [Charity Waweru]
