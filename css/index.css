@@ -142,17 +142,10 @@ margin-left: -400px;
 color: #A1EA2B;
 }
 
- /* {
-      justify-content: center;
-    transform: translate(-10px);
-    width: 550px;
-    height: 550px;
-    margin-top: -460px;
-    
-} */
 h2{
     display: flex;
     justify-content: center;
+    color: green;
 }
 
 small{
@@ -170,8 +163,13 @@ small{
     margin-left: -400px;
     color: #A1EA2B;
 }
-
-/* .gallery{
+h3{
     display: flex;
-    align-content: center;
+    justify-content: center;
+}
+
+.pictures{
+   height: 350px;
+   width: 350px;
+   margin-top: 40px;
 }
