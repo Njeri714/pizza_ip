@@ -69,17 +69,68 @@
                     beef pizza, pepperoni pizza, becon pizza<br></small></P>
                 </div>
               </div>
-              <div class="container">
-                <div class="gallery">
-                    <h4><strong class="be">Gallery</strong></h4>
-                    <img src="/images/pizza1.png" alt="">
-                    <img src="/images/pizza2.png" alt="">
-                    <img src="/images/pizza4.png" alt="" id="pig">
-                  </div>
-              </div>
           </div>
       </div> 
-      <div class="modal" id="confimOrderModal">
+      <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <h4 class="header">Place Your Order</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <label for="name" class="header">Name</label>
+                <input type="text" class="form-control" placeholder="Name" id="name" required>
+            </div>
+            <div class="col-md-5">
+                <label for="email" class="header">Email</label>
+                <input type="email" class="form-control" placeholder="Email" id="email" required>
+            </div>
+        </div>
+        <div class="row  mt-3 ">
+            <div class="col-md-3 ">
+                <label for="size" class="header1">Size</label>
+                <select name="quantity" id="quantity" class="form-control">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <label for="crust" class="header1">Crust</label>
+                <select name="crust" id="crust" class="form-control">
+                    <option value="crispy">Crispy</option>
+                    <option value="stuffed">pepperioni</option>
+                    <option value="Glutte-Free">mushroom</option>
+                </select>
+            </div>
+            <div class="col-md-1">
+                <label for="quantity" class="header1">Quantity</label>
+                <input type="number" name="numQuantity" id="numQuantity" value="1" class="form-control">
+            </div>
+            <div class="col-md-1">
+                <label for="toppings" class="header1">Toppings</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="toppings" checked disabled>
+                    <label for="toppings" class="form-chak-label">Toppings</label>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <label for="delivery" class="header1">Delivery</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="delivery">
+                    <label for="delivery" class="form-chak-label">Delivery</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mt-3 mb-3">
+                <button type="submit" class="btn btn-danger" data-toggle="modal" data-target="#confimOrderModal">Proceed To Checkout</button>
+            </div>
+        </div>
+        <!-- confirm order modal -->
+        <div class="confirm-order" id="confirm">
+    <div class="modal" id="confimOrderModal">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -125,9 +176,18 @@
             </div>
         </div>
     </div>
-
-      
-      <script src="./js/jquery.min.js"></script>
-      <script src="./js/index.js"></script>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"></script>
+  <script src="./jquery/jqueryCompressed"></script>
+      <script src="jquery.min.js"></script>
+      <script src="index.js"></script>
 </body>
 </html>
