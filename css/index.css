@@ -9,10 +9,22 @@
     justify-content: center;
 }
 
+.welcome{
+    background-image: url(/images/pizzalogo.png);
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
 span{
 color:rgb(94, 252, 3);
 }
 
+small{
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: lighter;
+}
 em{
 color:limegreen;
 }
