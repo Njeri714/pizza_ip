@@ -11,7 +11,7 @@
 
 .welcome{
     background-image: url(/images/pizzalogo.png);
-    color: white;
+    color: rgb(5, 5, 5);
     font-weight: bolder;
     display: flex;
     justify-content: center;
