@@ -195,6 +195,12 @@ h3{
     transform: scale(1.2);
     transition: 1s ease;
 }
-/* .pictures:hover{
-    cursor: pointer;
-} */
+
+.follow-like{
+    display: flex;
+    justify-content: center;
+}
+.pim{
+    display: flex;
+    justify-content: center;
+}
